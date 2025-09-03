@@ -10,6 +10,7 @@ set ( errors_files
     ObsErrorWithinGroupCov.h
     ObsErrorDiagonal.cc
     ObsErrorDiagonal.h
+    ObsErrorParametersBase.h
 )
 PREPEND( _p_errors_files     "errors"     ${errors_files} )
 
